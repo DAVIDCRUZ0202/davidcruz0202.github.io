@@ -27,7 +27,7 @@ Features that positively effect the model prediction are represented with a posi
 
 After trying my first model out, I decided to ramp things up and go for another XGBClassifier with pumped up parameters.
 
-![image_of_validation_curve](https://github.com/DAVIDCRUZ0202/DAVIDCRUZ0202.github.io/blob/master/img/validation%20curve.PNG?raw=true)
+![image_of_validation_curve](https://github.com/DAVIDCRUZ0202/davidcruz0202.github.io/blob/master/assets/img/validation%20curve.PNG?raw=true)
 
 The above image shows the result. Regardless of how many estimators I used, this model plateau'd at a classification error of 0.457099, meaning that my accuracy with this model turned out to be ~53% rounded. Even though this model wasn't as accurate as the first, I still think it was important to hypertune my parameters and explore the results.
 
@@ -35,9 +35,9 @@ My third model was a RandomForestClassifier, which still didn't do as well as th
 
 My final prediction on the test set gave me an accuracy score of 53%, meaning that I beat baseline by 2 points. This is better than not beating baseline, but I'd be happier to see a score higher than that! Here are some final takeaways for this project.
 
-![picture_of_accidents_by_state](https://github.com/DAVIDCRUZ0202/DAVIDCRUZ0202.github.io/blob/master/img/Accident%20states.PNG?raw=true)
+![picture_of_accidents_by_state](https://github.com/DAVIDCRUZ0202/davidcruz0202.github.io/blob/master/assets/img/Accident%20states.PNG?raw=true)
 
-![picture_of_causes](https://github.com/DAVIDCRUZ0202/DAVIDCRUZ0202.github.io/blob/master/img/Causes.PNG?raw=true)
+![picture_of_causes](https://github.com/DAVIDCRUZ0202/davidcruz0202.github.io/blob/master/assets/img/Causes.PNG?raw=true)
 
 As we can see from the images above, some of the most obvious things we can learn from are right in front of our faces. Most Oil accidents take place in Texas(because Texas has the most Oil Refineries.) by looking at the rate at which each Cause Class is responsible for an accident, we know that the biggest area of focus is Material and Equipment failure, as well as poor welding jobs. 
 
