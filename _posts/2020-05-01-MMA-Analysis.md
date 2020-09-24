@@ -18,16 +18,16 @@ To research this topic, I utilized the site Kaggle, which has readily available 
 
  I refined and manipulated the data set 'raw_total_fight_data.csv' in order to discover the following information. This first graph shows us the total number of fights each weight class held, as well as their total number of KO/TKO's, and Submissions. By far, the Lightweight division is the most common weight class. Light and Middle weight classes also hold an advantage over the Heavyweights when it comes to Submissions.
 
-![Graph1](https://raw.githubusercontent.com/DAVIDCRUZ0202/DAVIDCRUZ0202.github.io/master/img/graph_1.PNG){: .center-block :}
+![Graph1](https://github.com/DAVIDCRUZ0202/davidcruz0202.github.io/blob/master/assets/img/graph_1.PNG?raw=true){: .center-block :}
 
 _"Total Fights" includes all types of finishes, as well as all of the fights that went to decision, draw, etc._
 
  Although they have half as many fights under their category, the heavyweight division crushes the other two divisions as far as their KO/TKO percentage, flat out doubling the other weight classes statistics, as shown in the graph below.
 
-![Graph2](https://raw.githubusercontent.com/DAVIDCRUZ0202/DAVIDCRUZ0202.github.io/master/img/graph_2_new.PNG){: .center-block :}
+![Graph2](https://github.com/DAVIDCRUZ0202/davidcruz0202.github.io/blob/master/assets/img/graph_2_new.PNG?raw=true){: .center-block :}
 
  All of that power comes at a price. This third graph shows us how many strikes in total, per fight, are attempted, per competitor. As your weight class goes up, the amount of attempted strikes goes down. This reaffirms the idea that the bigger you are, the less stamina you conserve with each attempted strike. Heavier weight classes compensate for this loss of stamina through sheer strength, opting to "finish" their fights much more often rather than going for a decision.
 
-![Graph3](https://raw.githubusercontent.com/DAVIDCRUZ0202/DAVIDCRUZ0202.github.io/master/img/graph_3.PNG){: .center-block :}
+![Graph3](https://github.com/DAVIDCRUZ0202/davidcruz0202.github.io/blob/master/assets/img/graph_3.PNG?raw=true){: .center-block :}
 
  Regardless of how the fight concludes, all forms of victory are valid and get the job done. MMA is as much a sport of technical advantage as it is phyiscal talent. I've only scratched the surface of potential insights one can gather from studying this data, and I look forward seeing and reading to other explorations on this topic. ![Here's a link to my notebook , analysis and comments included.](https://colab.research.google.com/drive/1kh2PJM2IqJIL4kRmfdCCLUX_GVIIMeuY?usp=sharing)
