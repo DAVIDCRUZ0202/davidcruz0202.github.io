@@ -2,7 +2,7 @@
 layout: post
 title: An Analysis of MMA Weight Classes and their Common Characteristics
 subtitle: Practicing Data Visualizations and Data Exploration
-cover-img: /assets/img/DSC_5983.jpg
+thumbnail-img: /assets/img/DSC_5983.jpg
 tags: [data, visualizations]
 date: '2020-05-01'
 ---
