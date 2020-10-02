@@ -4,7 +4,6 @@ title: Putting in the Elbow Grease
 subtitle: A Classification problem solved with an XGB Classifier
 gh-repo: DAVIDCRUZ0202/Build2
 gh-badge: [star, fork, follow]
-thumbnail-img: assets\img\The_Earth_seen_from_Apollo_17.jpg
 comments: true
 ---
 
