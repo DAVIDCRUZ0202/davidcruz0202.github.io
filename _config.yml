@@ -6,7 +6,9 @@
 # --- Required options --- #
 
 # Name of website
-title: David's Portfolio
+title: # The title is in the middle
+      # TODO
+      # Make this button link to roll-the-ball
 
 # Your name to show in the footer
 author: David Cruz
