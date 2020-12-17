@@ -2,7 +2,7 @@
 layout: post
 title: Putting in the Elbow Grease
 subtitle: A Classification problem solved with an XGB Classifier
-gh-repo: DAVIDCRUZ0202/Build2
+gh-repo: DAVIDCRUZ0202/Potential-Oil-Spill-Detection
 gh-badge: [star, fork, follow]
 comments: true
 ---
@@ -13,7 +13,7 @@ This data set is a record collection of accidents in the oil industry. Obviously
 
 ![image_of_oil_spill](https://github.com/DAVIDCRUZ0202/davidcruz0202.github.io/blob/master/assets/img/BP_PLANT_EXPLOSION-1_lowres2.jpg?raw=true)
 
-What if there was a way to detect accident causes, and proactively fix them before the damage happens? That's what I tried to do with my model. I'll admit, the model which I deployed to [My App](https://oil-spill-danger-detector.herokuapp.com/) is not the most robust example of ML, but it is a basic concept which works to provide users with information of where to look when it comes to potential disasters in their job site. That was my aim with this project. Not to build the perfect model, but to build something that works, and to let people interact and play with something that I built. Beyond the deployed model in the App, I have a much more refined model which I based everything off of. [You can see my source code and work here](https://github.com/DAVIDCRUZ0202/Build2/blob/master/Build2_Project_David_Cruz.ipynb). 
+What if there was a way to detect accident causes, and proactively fix them before the damage happens? That's what I tried to do with my model. I'll admit, the model which I deployed to [My App](https://oil-spill-detection2.herokuapp.com/) is not the most robust example of ML, but it is a basic concept which works to provide users with information of where to look when it comes to potential disasters in their job site. That was my aim with this project. Not to build the perfect model, but to build something that works, and to let people interact and play with something that I built. Beyond the deployed model in the App, I have a much more refined model which I based everything off of. [You can see my source code and work here](https://github.com/DAVIDCRUZ0202/Potential-Oil-Spill-Detection/blob/master/notebooks/Build2_Project_David_Cruz.ipynb). 
 
 Here's an in depth breakdown of my process, and some visualizations which helped me along the way.
 
