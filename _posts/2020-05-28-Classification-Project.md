@@ -21,12 +21,15 @@ This was by definition a classification problem. My target is to predict the 'Ca
 
 You'll notice in the notebook that I tried 4 different models. Although all of the models that I built beat the baseline accuracy score, my first model was the best, with a Validation Accuracy of ~58%. 
 
+
+## How do our features affect model performance?
 ![image_of_permutation_importance](https://github.com/DAVIDCRUZ0202/davidcruz0202.github.io/blob/master/assets/img/permutation%20importance.PNG?raw=true)
 
 Features that positively effect the model prediction are represented with a positive number, and features that negatively effect the model are represented with negative numbers. By doing Permutation Importance, I successfully removed all of the 0 importance features, and I learned more about what features are doing what to my model. From what I can see above, all of are features are contributing in some way to the model prediction, and they're all doing so in a fair way. If there was a feature which was giving us leakage, it would have to have permutation importance of magnitudes different from the rest. To re-iterate, I'm looking to predict the **Cause** of an accident. Knowing that there was a spill, where it was, and how much it costed to repair is all fair game, because none of those features tell us *why* the accident occured in the first place.
 
 After trying my first model out, I decided to ramp things up and go for another XGBClassifier with pumped up parameters.
 
+## How did our model perform with the data?
 ![image_of_validation_curve](https://github.com/DAVIDCRUZ0202/davidcruz0202.github.io/blob/master/assets/img/validation%20curve.PNG?raw=true)
 
 The above image shows the result. Regardless of how many estimators I used, this model plateau'd at a classification error of 0.457099, meaning that my accuracy with this model turned out to be ~53% rounded. Even though this model wasn't as accurate as the first, I still think it was important to hypertune my parameters and explore the results.
@@ -35,6 +38,7 @@ My third model was a RandomForestClassifier, which still didn't do as well as th
 
 My final prediction on the test set gave me an accuracy score of 53%, meaning that I beat baseline by 2 points. This is better than not beating baseline, but I'd be happier to see a score higher than that! Here are some final takeaways for this project.
 
+## Where do most of the accidents occur?
 ![picture_of_accidents_by_state](https://github.com/DAVIDCRUZ0202/davidcruz0202.github.io/blob/master/assets/img/Accident%20states.PNG?raw=true)
 
 ![picture_of_causes](https://github.com/DAVIDCRUZ0202/davidcruz0202.github.io/blob/master/assets/img/Causes.PNG?raw=true)
